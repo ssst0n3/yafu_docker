@@ -17,6 +17,7 @@ RUN cd /msieve && make all ECM=1 NO_ZLIB=1
 RUN /msieve/msieve -v 115367564564210182766242534110944507919869313713243756429
 
 FROM builder AS builder-lasieve4
+# mirror of https://sites.google.com/site/bbuhrow/home/factorization-code-links?authuser=0
 RUN wget https://st0n3-dev.obs.cn-south-1.myhuaweicloud.com/yafu/gnfs-lasieve_2010-11-18.zip
 RUN mkdir -p /ggnfs && unzip -d /ggnfs gnfs-lasieve_2010-11-18.zip
 
