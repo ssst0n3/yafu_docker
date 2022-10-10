@@ -16,7 +16,7 @@ docker run -ti ssst0n3/yafu:2.10
 
 ## related project
 
-There are some other images for yafu, but those images seem missing some dependency or only provide 1.34 version yafu.
+There are some other images for yafu, but those seem missing some dependencies or only provide 1.34 version.
 
 Yes, the yafu 2.0 has been already released. You can see [here](https://github.com/bbuhrow/yafu/blob/master/include/yafu.h#L25) to get the current version of yafu.
 
