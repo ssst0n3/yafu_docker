@@ -1,5 +1,7 @@
 # yafu-docker
 
+unofficial container image for [yafu](https://github.com/bbuhrow/yafu)
+
 ```
 docker run -ti ssst0n3/yafu:2.10
 # yafu tune
