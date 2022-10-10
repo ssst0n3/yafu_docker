@@ -13,3 +13,11 @@ docker run -ti ssst0n3/yafu:2.10
 
 * https://www.mersenneforum.org/showthread.php?t=23087
 * https://www.mersenneforum.org/showthread.php?t=26764
+
+## related project
+
+There are some other images for yafu, but those images seem missing some dependency or only provide 1.34 version yafu.
+
+* https://hub.docker.com/r/eyjhb/yafu
+* https://hub.docker.com/r/trapexit/yafu
+* ...
